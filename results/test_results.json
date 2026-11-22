@@ -1,0 +1,36 @@
+{
+  "models": [
+    "seed_1.onnx",
+    "seed_2.onnx",
+    "seed_3.onnx",
+    "seed_4.onnx",
+    "seed_5.onnx"
+  ],
+  "val": {
+    "n_clips": 165,
+    "per_seed_top1": {
+      "seed_1.onnx": 66.06,
+      "seed_2.onnx": 66.06,
+      "seed_3.onnx": 67.27,
+      "seed_4.onnx": 66.67,
+      "seed_5.onnx": 67.27
+    },
+    "ensemble_top1": 66.06,
+    "ensemble_top1_corrupted": 66.06,
+    "robustness_drop_pt": 0.0
+  },
+  "test": {
+    "n_clips": 100,
+    "per_seed_top1": {
+      "seed_1.onnx": 68.0,
+      "seed_2.onnx": 67.0,
+      "seed_3.onnx": 66.0,
+      "seed_4.onnx": 63.0,
+      "seed_5.onnx": 69.0
+    },
+    "ensemble_top1": 71.0,
+    "ensemble_top1_corrupted": 67.0,
+    "robustness_drop_pt": 4.0
+  },
+  "note": "val was used to pick each seed's checkpoint, so val is optimistic. Quote the TEST numbers. Run eval once and do not tune against test."
+}

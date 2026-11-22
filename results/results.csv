@@ -1,0 +1,7 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,71.0,%,test set: 100 clips,final five-seed ONNX; supplied test_results.json,PASS
+latency_p95,<=50,2.5,ms,CPU (reported ONNX benchmark),ONNX Runtime; classifier-only; approximate,PASS_REPORTED
+model_size,<=20,8.0976,MB,five ONNX files,file-size sum; not INT8-quantized,PASS
+accuracy_drop_robustness,<=5,4.0,pt,test set: 100 clips,final five-seed ONNX; supplied test_results.json,PASS
+avg_power,<=500,,mW,not measured,not measured,NOT_MEASURED
+thermal_drift_10min,<=20,,%,not measured,not measured,NOT_MEASURED
