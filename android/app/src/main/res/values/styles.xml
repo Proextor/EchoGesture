@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.EchoGesture" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#101515</item>
+        <item name="android:colorAccent">#94E4CB</item>
+        <item name="android:statusBarColor">#101515</item>
+        <item name="android:navigationBarColor">#101515</item>
+    </style>
+    <item name="recognized_word" type="id"/>
+    <item name="recognition_status" type="id"/>
+    <item name="sentence" type="id"/>
+    <item name="add_word" type="id"/>
+    <item name="camera_preview" type="id"/>
+    <item name="camera_status" type="id"/>
+    <item name="record_sign" type="id"/>
+    <item name="save_sentence" type="id"/>
+    <item name="sentence_history" type="id"/>
+</resources>

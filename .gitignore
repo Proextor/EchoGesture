@@ -1,0 +1,26 @@
+/data/
+/submission/
+__pycache__/
+*.py[cod]
+
+# Keep local datasets, archives, and model weights out of new commits.
+WLASL_v*.json
+*.mp4
+*.npy
+*.npz
+*.zip
+*.7z
+*.tar
+*.gz
+*.onnx
+!/data/
+/data/*
+!/data/five-seed/
+/data/five-seed/*
+!/data/five-seed/seed_[1-5].onnx
+!/data/five-seed/vocab.json
+*.tflite
+*.task
+*.pt
+*.pth
+*.ckpt

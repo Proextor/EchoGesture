@@ -1,0 +1,32 @@
+{
+  "feature_max_delta": 0,
+  "per_model_logit_max_delta": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "combined_logit_max_delta": 0,
+  "python_result": {
+    "clip_id": "00626",
+    "prediction": "ACCIDENT",
+    "top5": [
+      "ACCIDENT",
+      "JACKET",
+      "DARK",
+      "COOL",
+      "CHANGE"
+    ],
+    "confidence": 0.8533,
+    "latency_ms": 95.41
+  },
+  "android_top5": [
+    "ACCIDENT",
+    "JACKET",
+    "DARK",
+    "COOL",
+    "CHANGE"
+  ],
+  "android_confidence": 0.8533445146090107
+}
