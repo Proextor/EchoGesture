@@ -10,7 +10,6 @@ Download the [five-seed debug APK](https://github.com/Proextor/EchoGesture/relea
 adb -d install -r .\app-five-seed-debug.apk
 ```
 
-APK SHA-256: `2d92c4a99cdf89d73c21165f01791d43f0c02e586970c8985ba9dffde72d208b`.
 
 ## Build
 
