@@ -1,7 +1,0 @@
-metric,target,measured,unit,device,runtime,pass
-top1_accuracy,>=70,66.0606,%,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,FAIL
-latency_p95,<=50,14.3540,ms,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,PASS
-model_size,<=25,4.7753,MB,N/A,N/A,PASS
-accuracy_drop_robustness,<=5,5.4545,pt,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,FAIL
-avg_power,<=500,NOT_MEASURED,mW,N/A,N/A,NOT_MEASURED
-thermal_drift_10min,<=20,NOT_MEASURED,%,N/A,N/A,NOT_MEASURED
